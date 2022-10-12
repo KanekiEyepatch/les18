@@ -1,0 +1,127 @@
+[class*="col-"] {
+width: 100%;
+float: left;
+padding: 0px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (min-width: 600px) {
+  [class*=col-]
+}
+
+body {
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.header {
+  background-image: url("../afbeelding/tbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 10px;
+  font-family: 'Gemunu Libre', sans-serif;
+  text-shadow: 4px 4px 0 red;
+  font-size: 80px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+#ktekst {
+  background-image: url("../afbeelding/tilburg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 2px;
+}
+
+#hoofdk {
+  background-color: white;
+  height: auto;
+}
+
+#k1 {
+  display: flex;
+  background-color: yellow;
+  height: auto;
+  margin-left: 3px;
+  margin-top: 5px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#lijst {
+  font-family: 'Gemunu Libre', sans-serif;
+  padding: 2px;
+  font-size: 19px;
+  font-style: italic;
+}
+
+#k2 {
+  display: flex;
+  background-color: silver;
+  height: auto;
+  margin-left: 3px;
+  margin-top: 5px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#art1 {
+  color: black;
+  font-weight: bold;
+  width: 50%
+  margin: 5px;
+  margin-left: 2px
+}
+
+#art2 {
+  color: black;
+  font-weight: bold;
+  width: 50%
+  margin: 5px;
+}
+
+.img {
+  width: auto;
+  float: right;
+  height: 200px;
+  margin-top: 5px;
+  display: flex;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+#footer {
+  position: fixed;
+  margin: 0px;
+  padding: 10, 10, 10, 10;
+  bottom: 0%;
+  right: 0%;
+  background: silver;
+  color: white;
+  height: 100px;
+  text-align: right;
+  border-style: solid;
+  border-radius: 25px;
+}
